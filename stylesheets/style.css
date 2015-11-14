@@ -1,0 +1,65 @@
+body{
+    font-family: arial, sans-serif;
+    margin:0;
+    background-color:white;
+}
+
+#header{
+    background-color: black;
+    height: 216px;
+}
+
+#header>h1{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 216px;
+    font-size: 72px;
+    font-weight: 300;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+#textarea{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#textarea form{
+    width: 945px;
+    margin: 0 auto;
+}
+
+#content{
+    resize:none;
+    height: 200px;
+    width: 945px;
+    border:1px solid #333;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit-button{
+    width: 50%;
+    font-size: 24px;
+}
+
+#debug{
+    height: 500px;
+    width:945px;
+    border:1px solid #333;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    word-wrap: break-word;
+}
+
+#debug h1{
+    font-size: 24px;
+}
+
+#debug pre{
+    font-size: 24px;
+}
