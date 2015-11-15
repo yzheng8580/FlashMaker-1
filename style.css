@@ -1,0 +1,93 @@
+body{
+    font-family: arial, sans-serif;
+    margin:0;
+    background-color:white;
+}
+
+#header{
+    background-color: black;
+    height: 216px;
+    border-bottom: 5px solid orange;
+
+}
+
+#header>h1{
+    text-align: center;
+    vertical-align: bottom;
+    line-height: 120px;
+    font-family: serif;
+    font-size: 72px;
+    font-weight: 300;
+    font-kerning: auto;
+    color: orange;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+}
+
+#header>p{
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  font-family: serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: white;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+
+
+}
+
+#textarea{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+#upload{
+  padding-bottom: 40px;
+  width: 945px;
+  margin: 0 auto;
+
+}
+
+#textarea form{
+    width: 945px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+#textarea textarea{
+    border: 3px solid lightgray;
+}
+
+#attribution{
+  text-align: center;
+  font-family: sans-serif;
+  background-color: gray;
+  color: white;
+  height: 50px;
+  border-top: 2px solid orange;
+}
+
+#content{
+    resize:none;
+    height: 200px;
+    width: 945px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#submit-button{
+    width: 10%;
+    font-size: 14px;
+    color: white;
+    background-color: orange;
+}
+
+#upload-button{
+    width: 10%;
+    font-size: 14px;
+    color: white;
+    background-color: orange;
+}
