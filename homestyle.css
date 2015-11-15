@@ -1,0 +1,65 @@
+body{
+    font-family: arial, sans-serif;
+    margin:0;
+    background-color:black;
+}
+
+#headerA{
+    background-color: black;
+    height: 360px;
+    text-align: center;
+
+}
+
+#headerA>h1{
+    text-align: center;
+    padding-top: 100px;
+    vertical-align: center;
+    line-height: 200px;
+    font-family: serif;
+    font-size: 100px;
+    font-weight: 300;
+    font-kerning: auto;
+    color: orange;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+}
+
+#headerA>p{
+  text-align: center;
+  position: relative;
+  bottom:90px;
+  line-height: 0px;
+  font-family: serif;
+  font-size: 36px;
+  font-weight: 300;
+  color: white;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+}
+
+#login{
+  padding-top: 15px;
+  text-align: center;
+  position: relative;
+  color: gray;
+
+}
+
+#logo{
+  position: relative;
+  display: block;
+    margin: 0 auto;
+}
+
+#what>p{
+  background-color: gray;
+  border-top: 5px solid orange;
+  text-align: center;
+  position: relative;
+  height:60px;
+  top: 150px;
+  color: white;
+  padding-top: 15px;
+
+}
